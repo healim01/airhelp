@@ -31,7 +31,7 @@ const Title = styled.div`
 
 const TextButton = styled.div`
   height: 30px;
-  border: 1px solid #068fff;
+  border: 2px solid #ffaac9;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -292,7 +292,7 @@ export default function DepartBookingForm() {
                   size="large"
                   htmlType="submit"
                   style={{
-                    border: '1px solid #068FFF',
+                    border: '2px solid #FFAAC9',
                     marginRight: '10px',
                     fontWeight: 'bold',
                     width: '150px',
@@ -306,8 +306,8 @@ export default function DepartBookingForm() {
                   size="large"
                   htmlType="submit"
                   style={{
-                    border: '1px solid #068FFF',
-                    backgroundColor: '#068FFF',
+                    border: '1px solid #FFAAC9',
+                    backgroundColor: '#FFAAC9',
                     color: 'white',
                     marginRight: '10px',
                     fontWeight: 'bold',
